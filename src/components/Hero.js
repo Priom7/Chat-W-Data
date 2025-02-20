@@ -21,7 +21,7 @@ function Hero() {
     }, 4000); // Change image every 4 seconds
 
     return () => clearInterval(interval);
-  }, []);
+  }, [images.length]);
 
   return (
     <section id="hero" className="hero">
