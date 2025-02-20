@@ -1,0 +1,134 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: fixed;
+  width: 90%;
+  z-index: 100;
+  background: transparent;
+  transition: background 0.3s ease;
+  margin-left: 50px;
+  margin-right: 50px;
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  -ms-transition: background 0.3s ease;
+  -o-transition: background 0.3s ease;
+}
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.nav-links li {
+  margin-left: 2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.nav-links a:hover {
+  color: var(--secondary-color);
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-mid), var(--gradient-end));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  padding: 0 2rem;
+}
+.hero-content h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.cta-btn {
+  background: var(--secondary-color);
+  border: none;
+  padding: 1rem 2rem;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: background 0.3s ease;
+}
+.cta-btn:hover {
+  background: #ff6347;
+}
+
+/* Features Section */
+.features {
+  padding: 4rem 2rem;
+  background-color: var(--background-color);
+  text-align: center;
+}
+.features h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+.feature-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+.feature-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.feature-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Call To Action Section */
+.cta {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: var(--gradient-end);
+  color: #fff;
+}
+.cta h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Footer */
+.footer {
+  padding: 2rem;
+  background-color: var(--gradient-mid);
+  color: #fff;
+  text-align: center;
+}

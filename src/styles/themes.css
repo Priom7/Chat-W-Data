@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #ff7f50;
+  --background-color: #f7f7f7;
+  --text-color: #333333;
+  --gradient-start: #0f2027;
+  --gradient-mid: #203a43;
+  --gradient-end: #2c5364;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
