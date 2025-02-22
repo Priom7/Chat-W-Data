@@ -1,16 +1,25 @@
 import React from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
 
-function Navbar() {
+function CustomNavbar() {
+  const navbarStyle = {
+    background: 'linear-gradient(to right, var(--gradient-start), var(--gradient-mid), var(--gradient-end))',
+    color: 'var(--primary-color)'
+  };
+
   return (
-    <nav className="navbar">
-      <div className="logo">Chat‑W‑Data</div>
-      <ul className="nav-links text-center">
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <Navbar style={navbarStyle} expand="lg" fixed="top">
+      <Navbar.Brand href="#hero" style={{ color: 'var(--primary-color)' }}>Chat‑W‑Data</Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="ml-auto">
+          <Nav.Link href="#hero" style={{ color: 'var(--primary-color)' }}>Home</Nav.Link>
+          <Nav.Link href="#features" style={{ color: 'var(--primary-color)' }}>Features</Nav.Link>
+          <Nav.Link href="#contact" style={{ color: 'var(--primary-color)' }}>Contact</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 }
 
-export default Navbar;
+export default CustomNavbar;
