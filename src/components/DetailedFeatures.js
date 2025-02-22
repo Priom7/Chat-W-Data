@@ -1,6 +1,6 @@
 // filepath: /Users/hin/Desktop/chat-w-data/chatwdata-portfolio/src/components/DetailedFeatures.js
 import React from 'react';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Container,Card } from 'react-bootstrap';
 import { FaSearch, FaLightbulb, FaChartBar, FaDesktop, FaKeyboard, FaExclamationTriangle, FaSync, FaComments, FaPalette, FaTools, FaChartLine, FaFolderOpen, FaSave, FaFilter, FaFileAlt, FaSort, FaSearchPlus, FaEdit, FaRuler, FaFolder, FaUpload, FaMobileAlt, FaCommentDots, FaCheck, FaColumns } from 'react-icons/fa';
 import '../styles/DetailedFeatures.css';
 
