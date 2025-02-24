@@ -31,7 +31,9 @@ function Hero() {
           Fine-tuned system to chat with both structured and unstructured
           data. Convert natural language into SQL queries seamlessly.
         </p>
-        <button className="cta-btn">Get Started</button>
+        <a href="https://chat-with-data.netlify.app/" target="_blank" rel="noopener noreferrer">
+          <button className="cta-btn">View Demo</button>
+        </a>
       </div>
       <div className="hero-banner">
         <img
