@@ -6,6 +6,7 @@ import ss3 from "../assets/images/ss3.png";
 import ss4 from "../assets/images/ss4.png";
 import ss5 from "../assets/images/ss5.png";
 import givhutIcon from "../assets/images/github-128.png"; 
+import youTubeIcon from "../assets/images/youtube-144.png";
 
 function Hero() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -35,6 +36,12 @@ function Hero() {
             <a href="https://github.com/Priom7/Chat-W-Data" target="_blank" rel="noopener noreferrer" className="givhut-link">
             <img src={givhutIcon} alt="Givhut" className="givhut-icon" />
           </a>
+            <br/>
+            <small>🔔 Tutorial and Code will be Open-Sourced soon: </small>
+            <a href="https://youtu.be/oONxa21EWvs" target="_blank" rel="noopener noreferrer" className="givhut-link">
+            <img src={youTubeIcon} alt="youTubeIcon" className="givhut-icon" />
+          </a>
+            
         </p>
       
           <a href="https://chat-with-data.netlify.app/" target="_blank" rel="noopener noreferrer">
