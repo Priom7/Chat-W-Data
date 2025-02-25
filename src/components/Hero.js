@@ -31,7 +31,7 @@ function Hero() {
         <p>
           Fine-tuned system to chat with both structured and unstructured
           data. Convert natural language into SQL queries seamlessly. <br/>
-            <strong>⭐ Leave a Star on GitHub : </strong>
+            <small>⭐ Star on GitHub : </small>
             <a href="https://github.com/Priom7/Chat-W-Data" target="_blank" rel="noopener noreferrer" className="givhut-link">
             <img src={givhutIcon} alt="Givhut" className="givhut-icon" />
           </a>
