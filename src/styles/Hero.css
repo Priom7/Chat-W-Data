@@ -42,3 +42,19 @@
 .hero-image.fade-in {
   opacity: 1;
 }
+
+.hero-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.givhut-icon {
+  width: 40px; /* Adjust size as needed */
+  height: 40px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.givhut-icon:hover {
+  transform: scale(1.1);
+}
