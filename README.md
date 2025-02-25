@@ -52,12 +52,6 @@ In the era of AI-driven automation, interacting with databases efficiently and i
 - **Valid OpenAI API key**
 
 
-## Future Enhancements
-- **Enhanced Input Token Optimization**: Further refining query context for efficiency.
-- **More Advanced Context Prediction**: Improving AI-assisted database schema interpretation.
-- **Performance Optimization**: Enhancing query execution speed with indexing and caching.
-- **Custom Chart Configurations**: Expanding visualization options for user flexibility.
-
 ## Conclusion
 This project bridges the gap between non-technical users and databases, making SQL query generation and execution seamless and intuitive. By leveraging **AI-driven SQL generation, real-time database execution, and dynamic data visualization**, it transforms the way users interact with databases. As development progresses, **further optimizations in token usage, UI enhancements, and performance improvements** will continue to refine the system.
 
