@@ -5,6 +5,7 @@ import ss2 from "../assets/images/ss2.png";
 import ss3 from "../assets/images/ss3.png";
 import ss4 from "../assets/images/ss4.png";
 import ss5 from "../assets/images/ss5.png";
+import givhutIcon from "../assets/images/github.png"; // Replace with actual icon path
 
 function Hero() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -31,9 +32,14 @@ function Hero() {
           Fine-tuned system to chat with both structured and unstructured
           data. Convert natural language into SQL queries seamlessly.
         </p>
-        <a href="https://chat-with-data.netlify.app/" target="_blank" rel="noopener noreferrer">
-          <button className="cta-btn">View Demo</button>
-        </a>
+        <div className="hero-links">
+          <a href="https://chat-with-data.netlify.app/" target="_blank" rel="noopener noreferrer">
+            <button className="cta-btn">View Demo</button>
+          </a>
+          <a href="https://chat-w-data.netlify.app/" target="_blank" rel="noopener noreferrer" className="givhut-link">
+            <img src={givhutIcon} alt="Givhut" className="givhut-icon" />
+          </a>
+        </div>
       </div>
       <div className="hero-banner">
         <img
