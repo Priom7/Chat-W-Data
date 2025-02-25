@@ -5,7 +5,7 @@ import ss2 from "../assets/images/ss2.png";
 import ss3 from "../assets/images/ss3.png";
 import ss4 from "../assets/images/ss4.png";
 import ss5 from "../assets/images/ss5.png";
-import givhutIcon from "../assets/images/github.png"; // Replace with actual icon path
+import givhutIcon from "../assets/images/github-128.png"; 
 
 function Hero() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -30,16 +30,16 @@ function Hero() {
         <h1>Chat‑W‑Data</h1>
         <p>
           Fine-tuned system to chat with both structured and unstructured
-          data. Convert natural language into SQL queries seamlessly.
+          data. Convert natural language into SQL queries seamlessly. <br/>
+            <a href="https://github.com/Priom7/Chat-W-Data" target="_blank" rel="noopener noreferrer" className="givhut-link">
+            <img src={givhutIcon} alt="Givhut" className="givhut-icon" />
+          </a>
         </p>
-        <div className="hero-links">
+      
           <a href="https://chat-with-data.netlify.app/" target="_blank" rel="noopener noreferrer">
             <button className="cta-btn">View Demo</button>
           </a>
-          <a href="https://chat-w-data.netlify.app/" target="_blank" rel="noopener noreferrer" className="givhut-link">
-            <img src={givhutIcon} alt="Givhut" className="givhut-icon" />
-          </a>
-        </div>
+       
       </div>
       <div className="hero-banner">
         <img
